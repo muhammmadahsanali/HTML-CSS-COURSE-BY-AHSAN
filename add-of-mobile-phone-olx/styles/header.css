@@ -1,0 +1,135 @@
+.header{ 
+  margin-top: -10px;
+  background-color: rgb(247, 248, 248);
+  width: 100%;
+  font-family: ROBOTO, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: fixed;
+  z-index: 1;
+  padding-bottom: 15px;
+  padding-top: 10px;  
+  MARGIN-LEFT: -7PX;
+}
+.blueolx{
+  padding-top: 3px;
+  height: 20px;
+}
+
+.olxlogo{
+  display: inline-block;
+}
+
+.upper-buttons{
+  margin-left: 11%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 100px 100px 100px;
+  margin-bottom: 1%;
+  margin-top: 20px;
+}
+
+
+.LINK1:hover{
+  color:  #3a77ff;
+}
+
+.LINK1{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.font{
+  display: inline-block;
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 100px;
+  box-shadow :inset 0.5px 10px 4px rgba(0,0,0,0.1); 
+  
+}
+.lower-buttons{
+ 
+  margin-left: 11%;
+  height: 48px;
+  justify-content: center;
+  display: flex;
+  margin-right: 2%;
+}
+
+.find-box{
+  height: 48px;
+  max-width: 652px;
+  width: 0;
+  border-color: #21494d;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: roboto,arial;
+  padding-left: 10PX;
+  flex: 1;
+}
+.blackolx{
+height:35px;
+margin-right: 20px;
+margin-top: 11px;
+
+}
+
+
+.location-box{
+  height: 53px;
+  width: 272px;
+  border-color: #21494d;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: roboto,arial;
+  margin-right: 12px;
+  border-width: 2px;
+  padding-left: 10PX;
+
+}
+
+
+.SEARCH-BUTTON {
+  background-color: #002f34;
+  font-size: 22PX;
+  color: rgb(255, 255, 255);
+  border: #002f34;
+  border-radius: 4PX;
+  margin-left: -4PX;
+  height: 3.4rem;
+  width: 80PX;
+ 
+}
+.SEARCH-BUTTON .fa-solid{
+  margin-bottom: 5PX;
+}
+
+
+.log{
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 40px;
+  width: 39px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 19px;
+  border-bottom: 2px solid;
+  margin-right: 20px;
+}
+.sell-button { 
+  background-color:white;
+  border-bottom: 3px solid blue;
+  border-left: 3px solid rgb(255, 221, 0);
+  border-right: 3px solid rgb(0, 255, 225);
+  border-top: 3px solid rgb(0, 200, 255);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 6px;
+  font-weight: 800;
+  }
+.sell-button{
+  font-weight: 799;
+}

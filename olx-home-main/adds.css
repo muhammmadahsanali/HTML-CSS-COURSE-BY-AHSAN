@@ -1,0 +1,81 @@
+.ADD{ 
+  MARGIN-LEFT: 10%;
+  width: 80%;
+  min-width: 400px;
+  column-gap: 10PX;
+  display: flex;
+  justify-content: space-between;
+  }
+  .REACENTLY{
+  color: gray;
+    font-size: 15PX;
+  }
+  .ADD-LINKS2 { 
+    flex: 1;
+    display: grid;
+    grid-template-ROWS: 1FR  ;
+    max-width: 22REM;
+    min-width: 11REM;
+    border-radius: 5PX;
+    color: #c2c0c09c !important;
+    border-style: solid;
+    margin-top: 10px;
+    border-width: 1px;
+  }
+  .TEXT-ADDS{
+    margin-left: 20px;
+    margin-bottom: 20PX;
+  }
+  .img-container-adds {
+    width:CONTAIN;
+    display: inline-block;
+  } 
+  .RS-HEARTCONTAINER{
+    MARGIN-RIGHT: 20PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .RS-HEARTCONTAINER .fa-regular{
+   color: #002F34;
+  font-size: 25px;
+  }
+  .RS2 {
+    font-weight: 700;
+    font-size: 16px;
+    color:#002F34;
+  }
+  
+  .MODLE2 {
+    margin: 0;
+    color: #002F34;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .PLACE2 {
+    margin-top: 25px;
+    font-size: 14PX;
+    margin-bottom: 0;
+    color: rgb(0, 47, 52);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: NOWRAP;
+    width: 153PX;
+    display: inline-block;
+  }
+  .IMG {
+
+    min-width: CONTAIN;
+    height: 171px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .AGO2 {
+    color: #002F34;
+    display: block;
+    margin: 0;
+    font-size: 14PX;
+  }
+  

@@ -1,0 +1,155 @@
+.header{ 
+  background-color: #f7f8f8;
+  width:100%;
+  font-family: ROBOTO,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: fixed;
+  z-index: 60;
+  padding-bottom: 15px;
+  margin-top:-10px ;
+  margin-left:-10px ;
+}
+.blueolx{
+  padding-top: 3px;
+  padding-left: 6px;
+  height: 45px;
+
+
+}
+
+.olxlogo{
+  display: inline-block;
+}
+
+
+
+.upper-buttons{
+  padding-left: 8%;
+  display:grid;
+  align-items: center;
+  grid-template-columns: 80px 100px 100px;
+  margin-left :30px;
+  margin-right :118.8px;
+
+
+}
+
+
+.LINK1:hover{
+  color:  #3a77ff;
+}
+
+.LINK1{
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+}
+.font{
+  display: inline-block;
+
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 100px;
+  box-shadow :inset 0.5px 10px 4px rgba(0,0,0,0.1); 
+  
+}
+.lower-buttons{
+  height: 48px;
+  justify-content:center;
+  display: flex;
+  padding-left: 0%;
+
+  margin-right :118.8px;
+  margin-left: -2%;
+
+
+}
+
+.find-box{
+  height: 48px;
+  max-width: 652px;
+  width: 0;
+  border-color: #21494d;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: roboto,arial;
+  padding-left: 10PX;
+  flex: 1;
+}
+.blackolx{
+height:30px;
+margin-right: 20px;
+margin-top: 11px;
+
+}
+
+
+.location-box{
+  height: 53px;
+  width: 272px;
+  border-color: #21494d;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: roboto,arial;
+  margin-right: 12px;
+  border-width: 2px;
+  padding-left: 10PX;
+
+}
+
+
+.SEARCH-BUTTON {
+  background-color:#002f34;
+  font-size: 22PX;
+  color: rgb(255, 255, 255);
+  border:#002f34;
+  border-radius:4PX ;
+  margin-left: -4PX;
+  height: 53.8PX;
+  width:80PX;
+ 
+ 
+}
+.SEARCH-BUTTON .fa-solid{
+  margin-bottom: 5PX;
+}
+
+
+.log{
+
+font-weight: 700;
+font-size: 15px;
+margin-left: 40px;
+width: 50px;
+border-top: none;
+border-left: none;
+border-right: none;
+padding-bottom: 19px;
+border-bottom: 2px solid;
+margin-right: 20px;
+
+  
+}
+
+
+
+
+.sell-button { 
+  background-color:white;
+  border-bottom: 3px solid blue;
+  border-left: 3px solid rgb(255, 221, 0);
+  border-right: 3px solid rgb(0, 255, 225);
+  border-top: 3px solid rgb(0, 200, 255);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 6px;
+  font-weight: 800;
+  }
+
+
+.sell-button{
+  font-weight: 799;
+}
