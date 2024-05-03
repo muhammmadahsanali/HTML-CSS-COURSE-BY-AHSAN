@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="olx-home-main/general.css">
   <link rel="stylesheet" href="olx-home-main/header.css">
   <link rel="stylesheet" href="olx-home-main/footer.css">
+  <link rel="stylesheet" href="olx-home-main/login.css">
+  <script src="login.js"></script>
 
 </head>
 
@@ -55,8 +57,35 @@
     <button class="SEARCH-BUTTON">
       <i class="fa-solid fa-magnifying-glass"></i>
     </button>
-    <p class="log"> Login</p>
+    <button class="show-popup">Login</button>
 
+    <div class="background-login hidden">
+      <div class="white-box-login">
+        <button class="close-button">×</button>
+        <img class="olxlogopopup" src="THUMBNAILS/OLX-Symbol.png" alt="">
+        <p class="loginintotext">Login into your OLX account</p>
+       <a href="https://accounts.google.com/v3/signin/identifier?opparams=%253Fhl%253Den&dsh=S252539561%3A1714740957278714&client_id=874470485231-c7l7qahib20c03gpab475f1j0una1pcu.apps.googleusercontent.com&ddm=0&hl=en&nonce=X8CJQMUTbsY5P4hHPvgJSA&o2v=2&redirect_uri=https%3A%2F%2Fauth.olx.com.pk%2Fauth%2Frealms%2Folx-pk%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=NYa1o9_r-G8BmMUvcotL1UvnUuecnlFMM0ePV0TT-MM.sFybFnaEXqs.frontend&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAP2ap3eLSZrSf5miC0gJDYJO03SMhCSqedftd5aQdV6y9BAe-9p_3LV9DTrxVZ983E0-nKg3RnRYwqhtFmSOsIW4AI07is670ktbsPaOeB6GU8Lp3BpIz-vO3dGeiboKpCj9y6Um4qgsVwrEF_yhdT2Ypu0HQFWElNSFFddMIE21L59ajpXDzDdSvhI83W--pVHw1FaSRFqHfy4hjGoJ0CdgMKxyM42atA3gbzjaiIacoy8M1dRxqVBSiCHGEuaoRtThWkN2ffjYMedYeaEKazMT-h31jBYSJSC4f7dO720WcYWMcnMfM8FQbvY_S1-TDyLLIDZbDsWy-nqg4h11a5b9xWRwNYSz0Stemtqo_cdPhYwdPM8h75NxyxJkByyZy7XpESgtTIF1Kkp4uBWV5lbt-o67Usn3z4BgWQHStRLt3P_3JZgWtZK0SYGCvOPjIPJ2siuPS6YIRKM9l3wFSYjx9UDtA%26flowName%3DGeneralOAuthFlow%26hl%3Den%26as%3DS252539561%253A1714740957278714%26client_id%3D874470485231-c7l7qahib20c03gpab475f1j0una1pcu.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.olx.com.pk&rart=ANgoxccvUG0k95x0inWMKMdrxobY8qM_imPZ585Dsh1o_sEP5HteRNPmgWvmnoMOsX6PI39EGGQyS8T9Jlxgb0ECBftrDiqEX8JH8SPkhm84BH9QyQVMXew">
+         <button class="google-login-button"><div style=" display: inline-block; <margin-right: 5px; margin-top:-;"><img style="height: 20px; margin-left: 10px;    margin-bottom: -4px;" src="THUMBNAILS/Google__G__logo.svg.png" alt=""></div>Login with Google</button></a>
+         <a href="https://facebook.com/login.php?skip_api_login=1&api_key=1605623943100328&kid_directed_site=0&app_id=1605623943100328&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fscope%3Dopenid%2Bemail%26state%3DixC8IngVSQMFkfe-WkYfZkr65_VcReJq82GMLhq3yTc.1MML7oaGuD4.frontend%26response_type%3Dcode%26client_id%3D1605623943100328%26redirect_uri%3Dhttps%253A%252F%252Fauth.olx.com.pk%252Fauth%252Frealms%252Folx-pk%252Fbroker%252Ffacebook%252Fendpoint%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D06b134b9-c264-4ef8-8b9d-fa39208321ea%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fauth.olx.com.pk%2Fauth%2Frealms%2Folx-pk%2Fbroker%2Ffacebook%2Fendpoint%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DixC8IngVSQMFkfe-WkYfZkr65_VcReJq82GMLhq3yTc.1MML7oaGuD4.frontend%23_%3D_&display=page&locale=en_GB&pl_dbl=0">
+         <button class="google-login-button"><div style=" display: inline-block; margin-right: 5px; margin-top:-;"><img style="height: 20px; margin-left: 10px;    margin-bottom: -4px;" src="THUMBNAILS/Facebook_f_logo_(2021).svg.png" alt=""></div>Login with Facebook</button></a>
+        <p style="position: relative; left: 45%; margin-top: 0px; font-size: 15px;">OR</p>
+        <button class="email-login-button"><i class="fa-regular fa-envelope" style="font-size: 20px; font-weight: 600; margin-right: 10px;"></i>Login with Email</button>
+        <button class="phone-login-button"><i class="fa-solid fa-phone" style="font-size: 20px; font-weight: 600; margin-right: 10px;"></i>Login with Phone</button>
+
+
+
+
+
+
+
+      </div>
+    </div>
+    
+    <script src="olx-home-main/login.js"></script>
+   
+
+    
+    
     <button class="sell-button">
       <i class="fa-solid fa-plus"></i>SELL
     </button>
@@ -198,11 +227,10 @@
     </div>
 
     <div class="adds">
-      <div class="ADD" href="add-of-mobile-phone-olx/add-of-mobile-phone-olx.html">
+      <div class="ADD">
         
 
-
-  <div class="ADD-LINKS2">
+<a style="text-decoration: none;" href="add-of-mobile-phone-olx/add-of-mobile-phone-olx.html"> <div class="ADD-LINKS2" >
     <div class="img-container-adds">
       <IMG class="IMG" src="THUMBNAILS/1.jfif">
 
@@ -221,7 +249,8 @@
 
     </div>
 
-  </div>
+  </div></a>
+ 
 
 </a>
        
@@ -301,6 +330,7 @@
 
 
   </DIV>
+
 
 
 
